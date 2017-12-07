@@ -20,3 +20,31 @@ html {
 body {
   margin: 0;
 }
+
+@media only screen and (min-width: 25em) {
+
+  body {
+    display: block;
+  }
+  img {
+    display: inline-block;
+    float: left;
+    padding: .20em;
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+
+  img {
+    width: 40%;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  img {
+    width: 20%;
+  }
+
+}
